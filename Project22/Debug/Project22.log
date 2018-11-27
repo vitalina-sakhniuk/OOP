@@ -1,0 +1,28 @@
+﻿Build started 27.11.2018 14:42:37.
+     1>Project "C:\Users\Vitalina\documents\visual studio 2013\Projects\Project22\Project22\Project22.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Realization.cpp
+         Realization.cpp
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\header.h(138): warning C4584: 'Clients' : base-class 'Client' is already a base-class of 'Vidpravnik'
+                 c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\header.h(97) : see declaration of 'Client'
+                 c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\header.h(121) : see declaration of 'Vidpravnik'
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\header.h(170): warning C4584: 'Manager' : base-class 'Employee' is already a base-class of 'Pryimach'
+                 c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\header.h(148) : see declaration of 'Employee'
+                 c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\header.h(162) : see declaration of 'Pryimach'
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(318): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(319): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(321): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(323): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(330): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(333): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\vitalina\documents\visual studio 2013\projects\project22\project22\realization.cpp(92): warning C4101: 'th' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vitalina\documents\visual studio 2013\Projects\Project22\Debug\Project22.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Vitalina\documents\visual studio 2013\Projects\Project22\Debug\Project22.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Vitalina\documents\visual studio 2013\Projects\Project22\Debug\Project22.lib" /MACHINE:X86 Debug\Class.obj
+         Debug\Realization.obj
+         Project22.vcxproj -> C:\Users\Vitalina\documents\visual studio 2013\Projects\Project22\Debug\Project22.exe
+     1>Done Building Project "C:\Users\Vitalina\documents\visual studio 2013\Projects\Project22\Project22\Project22.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.63
